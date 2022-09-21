@@ -1,4 +1,4 @@
-" Configuracion standar VIM
+" Configuracion Standar VIM
 
 syntax on 
 set mouse=a
@@ -16,7 +16,7 @@ set colorcolumn=120
 highlight ColoColumn ctermbg=0 guibg=lightgrey
 
 
-"Insert Pluguins
+" Insertar Plugins
 call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'sainnhe/everforest'
@@ -54,4 +54,4 @@ let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 "let g:UltiSnipsEditSplit="vertical"
 
-"FIN
+" FIN
